@@ -6,9 +6,10 @@
 
 ## Keys types and sizes
 
+* Asymmetric cryptography vs symmetric cryptography
 * Two encodings DER (binary) and PEM (Base64-encoded text)
 * Two formats: PKCS#8 (modern) and PKCS#1 (traditional)
-* Asymmetric cryptography vs symmetric cryptography
+* Can be encrypted or unencrypted
 * Generating a private key also generates a public key
 * Key size matters
 * Hashing algorithm has nothing to do with key generation
