@@ -9,7 +9,7 @@ cd pki
 ```
 
 # generate a private key
-openssl genpkey -outform PEM -algorithm RSA -pkeyopt rsa_keygen_bits:2048 -out caddy.key
+openssl genpkey -outform PEM -algorithm RSA -pkeyopt rsa_keygen_bits:1024 -out caddy.key
 
 # generate a CSR using the private key we created earlier
 ```
