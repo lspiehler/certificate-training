@@ -27,3 +27,5 @@ openssl x509 -req -days 365 -in caddy.csr -signkey caddy.key -out caddy.crt
 ```
 .\caddy_windows_amd64.exe run --config .\caddy.json
 ```
+
+# Navigate to https://localhost:9443
